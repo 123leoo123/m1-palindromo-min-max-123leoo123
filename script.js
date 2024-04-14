@@ -10,8 +10,6 @@ function isPalindrome(text){
     return true
 }
 
-
-// [1,52,59,16,13,9]	
 function arrayMaxMin(arr){
 let maiorNumero = arr[1];
 let menorNumero = arr[1];
@@ -23,8 +21,6 @@ let menorNumero = arr[1];
     if(arr[i] < menorNumero){
       menorNumero = arr[i];
     }
-    // return `${menorNumero} ${maiorNumero} `
-    
   }
   return [menorNumero , maiorNumero];
 }
